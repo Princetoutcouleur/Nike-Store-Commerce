@@ -1,5 +1,5 @@
 import React from 'react'
-import Clips from './utils/clips';
+import Clips from './utils/Clips.jsx';
 import SocialLinks from "./utils/SocialLinks"
 
 const Hero = ({ heroapi: { title, subtitle, btntext, img, sociallinks, videos } }) => {
