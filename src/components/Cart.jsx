@@ -9,7 +9,7 @@ import {
   setCloseCart,
   setGetTotals,
 } from "../app/CartSlice.js";
-import CartCount from "./cart/CartCount";
+import CartCount from "./Cart/CartCount.jsx";
 import CartEmpty from "./cart/CartEmpty";
 import CartItem from "./cart/CartItem.jsx";
 
