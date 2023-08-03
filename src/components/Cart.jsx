@@ -9,9 +9,9 @@ import {
   setCloseCart,
   setGetTotals,
 } from "../app/CartSlice.js";
-import CartCount from "./Cart/CartCount.jsx";
+import CartCount from "./Cart/CartCount";
 import CartEmpty from "./cart/CartEmpty";
-import CartItem from "./cart/CartItem.jsx";
+import CartItem from "./cart/CartItem";
 
 const Cart = () => {
   const dispatch = useDispatch();
